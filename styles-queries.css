@@ -1,0 +1,179 @@
+/*Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1000px) {
+
+    body {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 2rem;
+        font-size: 1.5rem;
+        justify-content: center;
+        background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+    }
+
+    h1 {
+        flex-wrap: wrap;
+        word-wrap: wrap;
+        font-size: 2rem;
+        padding: 1rem !important;
+        display: block;
+    }
+
+    h1:after {
+        content: "get your own website now";
+        font-size: 1rem;
+        display: block;
+        top: 25rem;
+        right: 0.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+
+
+    }
+
+    #yin-yang {
+        left: 10rem;
+        top: -2rem;
+    }
+
+    #star-six {
+        left: -10rem;
+        top: 6rem;
+    }
+
+    #infinity {
+        left: 0rem;
+        top: -23rem;
+        font-size: 6rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 2rem;
+        font-size: 1.5rem;
+        justify-content: center;
+        background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+    }
+
+    h1 {
+        flex-wrap: wrap;
+        word-wrap: wrap;
+        font-size: 2rem;
+        padding: 1rem !important;
+        display: block;
+    }
+
+    h1:after {
+        content: "get your own website now";
+        font-size: 1rem;
+        display: block;
+        top: 25rem;
+        right: 0.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+
+
+    }
+
+    #yin-yang {
+        left: 5rem;
+        top: -2rem;
+    }
+
+    #star-six {
+        left: -5rem;
+        top: 6rem;
+        /*z-index: -3;*/
+    }
+
+    #infinity {
+        left: 0rem;
+        top: -24rem;
+        font-size: 6rem !important;
+        /*z-index: -3;*/
+    }
+
+}
+
+
+/*@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: -5rem;
+    }
+}*/
+
+
+/*Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 480px) {
+
+    body {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 2rem;
+        font-size: 1.5rem;
+        justify-content: center;
+        background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+    }
+
+    h1 {
+        flex-wrap: wrap;
+        word-wrap: wrap;
+        font-size: 2rem;
+        padding: 1rem !important;
+        display: block;
+    }
+
+    h1:after {
+        content: "get your own website now";
+        font-size: 1rem;
+        display: block;
+        top: 25rem;
+        right: 0.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+
+
+    }
+
+    #yin-yang {
+        left: 5rem;
+        top: -2rem;
+    }
+
+    #star-six {
+        left: -5rem;
+        top: 6rem;
+        /*z-index: -3;*/
+    }
+
+    #infinity {
+        left: 0rem;
+        top: -29rem;
+        font-size: 6rem !important;
+        /*z-index: -3;*/
+    }
+
+
+
+}

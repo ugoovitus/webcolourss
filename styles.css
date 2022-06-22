@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100vh !important;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh !important;
+    margin: 2rem;
+    font-size: 16px;
+    /*font-weight: 700 !important;*/
+
+    justify-content: center;
+    background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h1:after {
+    content: "get your own website now ⏩";
+    /*background: #56f543;*/
+    font-size: 1.5rem;
+    position: absolute;
+    top: 30rem;
+    right: 2.5rem;
+    padding: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    transition: background 1s, transform 1s, content 1s, transition 3s, all 1s;
+    /*transition: all ease-in-out 1s;*/
+}
+
+
+
+h1:hover:after {
+    background: #9ff675;
+    content: "get your own website now ⏩";
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+    border-radius: 1rem;
+    transform: rotate(-10deg) translate(-10px);
+    position: absolute;
+    box-shadow: inset 1px 1px 5px 5px #56f543;
+    /*z-index: ;*/
+    /*transition: all ease-in-out 1s;*/
+
+
+}
+
+
+/*#star-six {
+    width: 0;
+    height: 0;
+
+    position: relative;
+    transform: translate(10px);
+    border: 5rem solid #fda399;
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+
+    background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+
+    bottom: 14rem;
+    box-shadow: 0px 0px 10px 5px #adfbda;
+    z-index: -22 ! !important;
+
+
+}
+
+#star-six:hover {
+    transform: translatey(50px) translatex(-50px);
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+    z-index: -22 ! !important;
+
+}
+
+#star-six:before {
+    width: 1px;
+    height: 1px;
+
+    position: fixed;
+    content: "";
+    top: -3rem;
+    left: -60rem;
+    transform: rotate(10deg) infinite;
+    box-shadow: 0px 0px 10px 5px #ebf38b;
+    border-radius: 9rem;
+    border: 4rem #35c3ff solid;
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+    z-index: -22 ! !important;
+
+}
+
+#star-six:hover:before {
+    transform: translatey(40px) translatex(40px) scale(1.4);
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+
+}
+
+
+#star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #adfbda;
+    position: fixed;
+    content: "";
+    top: 22rem;
+    left: -50rem;
+    box-shadow: 0px 0px 10px 5px #76d880;
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+
+
+
+
+}
+
+#star-six:hover:after {
+    transform: translatey(-20px) translatex(-50px) rotate(-920deg) !important;
+
+    transition: background 1s, transform 1s, content 1s, transition 1s, all 1s;
+
+}*/
+
+
+
+
+
+
+
+
+
+#star-six {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    top: -15rem;
+    left: -35rem;
+    transition: all ease-in-out 2s;
+}
+
+#star-six:hover {
+    transform: translatex(150px) translatey(50px) rotate(-90deg) !important;
+    transition: all ease-in-out 2s;
+
+}
+
+#star-six:before,
+#star-six:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fda399;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    box-shadow: 0px 0px 10px 5px #adfbda;
+    transition: all ease-in-out 2s;
+
+}
+
+#star-six:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    transition: all ease-in-out 2s;
+
+}
+
+#star-six:hover:before
+
+/*#star-six:hover:after*/
+    {
+    transform: translatey(-20px) translatex(-50px) rotate(-920deg) !important;
+    transition: all ease-in-out 2s;
+
+
+}
+
+#infinity {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+    top: 12rem;
+    left: -30rem;
+    transition: all ease-in-out 2s;
+
+
+}
+
+#infinity:before,
+#infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid #35c3ff;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+    box-shadow: 0px 0px 10px 5px #ebf38b;
+    transition: all ease-in-out 2s;
+
+
+}
+
+#infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+    transition: all ease-in-out 2s;
+
+}
+
+#infinity:hover:before,
+#infinity:hover:after {
+    transform: translatey(40px) translatex(40px) scale(1.4) rotate(-920deg);
+    transition: all ease-in-out 2s;
+
+
+}
+
+#yin-yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    background: #ebf38b;
+    border-color: #76d880;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px #adfbda;
+    bottom: 4rem;
+    left: -5rem;
+    transition: all ease-in-out 2s;
+
+
+
+}
+
+#yin-yang:hover {
+    transform: translatey(50px) translatex(-50px) rotate(1000deg) scale(1.9);
+    transition: all ease-in-out 2s;
+
+}
+
+#yin-yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #76d880;
+    border: 18px solid #ebf38b;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+    transition: all ease-in-out 2s;
+
+
+}
+
+#yin-yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ebf38b;
+    border: 18px solid #76d880;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+    transition: all ease-in-out 2s;
+
+}
+
+
+#yin-yang:hover:before,
+#yin-yang:hover:after {
+    /*transform: translatey(40px) translatex(-40px) rotate(700deg) scale(1.3);*/
+    transition: all ease-in-out 1s;
+
+}
