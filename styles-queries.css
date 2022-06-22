@@ -142,13 +142,14 @@
         font-size: 2rem;
         padding: 1rem !important;
         display: block;
+        margin-top: 5rem;
     }
 
     h1:after {
         content: "get your own website now";
         font-size: 1rem;
         display: block;
-        top: 25rem;
+        top: 27rem;
         right: 0.5rem;
         padding: 1rem;
         border-radius: 1rem;
@@ -169,7 +170,7 @@
 
     #infinity {
         left: 0rem;
-        top: -29rem;
+        top: -30.3rem;
         font-size: 6rem !important;
         /*z-index: -3;*/
     }
